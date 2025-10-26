@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - MiSitio</title>
+  <link rel="stylesheet" href="estilos.css">
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="nav-logo">MiSitio</a>
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+    </div>
+    <div class="nav-right">
+      <span id="userName" class="user-name"></span>
+      <button id="loginBtn" class="icon-btn" title="Login">
+        <span class="login-icon">🔒</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Secciones principales -->
+  <main>
+    <section id="home">
+      <h1>Bienvenido a MiSitio CARLOS ALEJANDRO RAMIREZ PRIETO</h1>
+      <p>HOLAAAAAAAAAAAA</p>
+    </section>
+  </main>
+
+  <!-- Modal de Login -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>INICIAR SESION</h2>
+      <form id="formLogin">
+        <input type="text" id="login" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Desarrollado por <strong>Carlos Alejandro Ramírez Prieto</strong> — 21/10/2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
